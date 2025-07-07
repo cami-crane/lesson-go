@@ -12,5 +12,6 @@ func init() {
 }
 
 func main() {
-		syntax.HelloWorld()
+	syntax.HelloWorld()
+	syntax.Import()
 }
