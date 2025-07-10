@@ -15,4 +15,5 @@ func main() {
 	syntax.HelloWorld()
 	syntax.Import()
 	syntax.VariableDefinition()
+	syntax.Const()
 }
