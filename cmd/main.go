@@ -16,4 +16,5 @@ func main() {
 	syntax.Import()
 	syntax.VariableDefinition()
 	syntax.Const()
+	syntax.Int()
 }
