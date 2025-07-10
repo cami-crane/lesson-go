@@ -18,4 +18,5 @@ func main() {
 	syntax.Const()
 	syntax.Int()
 	syntax.String()
+	syntax.Bool()
 }
