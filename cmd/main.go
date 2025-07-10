@@ -14,4 +14,5 @@ func init() {
 func main() {
 	syntax.HelloWorld()
 	syntax.Import()
+	syntax.VariableDefinition()
 }
