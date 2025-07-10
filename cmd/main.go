@@ -17,4 +17,5 @@ func main() {
 	syntax.VariableDefinition()
 	syntax.Const()
 	syntax.Int()
+	syntax.String()
 }
