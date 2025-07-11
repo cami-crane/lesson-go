@@ -1,8 +1,8 @@
-package syntax
+package definition
 
 import "fmt"
 
-func separateDefinition() {
+func separatedefinition() {
 	var i int = 1
 	var f64 float64 = 1.2
 	var s string = "test"
@@ -29,7 +29,7 @@ func collectivelyDefined() {
 }
 
 // var は関数外では宣言できない
-func shortDefinition() {
+func shortdefinition() {
 	i := 1
 	f64 := 1.2
 	s := "test"
@@ -39,7 +39,7 @@ func shortDefinition() {
 	fmt.Println(i, f64, s, t, f)
 }
 
-func typeDefinition() {
+func typedefinition() {
 	var xi int = 1
 	// デフォルトでは float64 になる
 	var xf32 float32 = 1.2
@@ -52,9 +52,9 @@ func typeDefinition() {
 	fmt.Printf("%T\n", xf32)
 	fmt.Printf("%T\n", xf32)
 }
-func VariableDefinition() {
-	separateDefinition()
+func Variabledefinition() {
+	separatedefinition()
 	collectivelyDefined()
-	shortDefinition()
-	typeDefinition()
+	shortdefinition()
+	typedefinition()
 }
