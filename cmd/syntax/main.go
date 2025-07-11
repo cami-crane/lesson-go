@@ -22,4 +22,5 @@ func main() {
 	definition.Cast()
 	definition.Array()
 	definition.Slice()
+	definition.MakeAndCap()
 }
