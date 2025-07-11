@@ -20,4 +20,5 @@ func main() {
 	definition.String()
 	definition.Bool()
 	definition.Cast()
+	definition.Array()
 }
