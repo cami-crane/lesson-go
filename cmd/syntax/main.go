@@ -21,4 +21,5 @@ func main() {
 	definition.Bool()
 	definition.Cast()
 	definition.Array()
+	definition.Slice()
 }
