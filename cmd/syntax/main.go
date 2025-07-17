@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	definition "github.com/cami-crane/lesson-go.git/cmd/syntax/definition"
+	"github.com/cami-crane/lesson-go.git/cmd/syntax/definition"
 )
 
 // 最初に実行される関数
@@ -24,4 +24,5 @@ func main() {
 	definition.Slice()
 	definition.MakeAndCap()
 	definition.Map()
+	definition.Bite()
 }
