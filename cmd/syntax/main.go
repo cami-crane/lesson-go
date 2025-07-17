@@ -23,4 +23,5 @@ func main() {
 	definition.Array()
 	definition.Slice()
 	definition.MakeAndCap()
+	definition.Map()
 }
